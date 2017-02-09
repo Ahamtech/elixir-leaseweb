@@ -4,7 +4,7 @@ defmodule LeaseWeb.Mixfile do
   def project do
     [app: :leaseweb,
      version: "0.1.0",
-     elixir: "~> 1.5-dev",
+     elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
@@ -16,5 +16,20 @@ defmodule LeaseWeb.Mixfile do
 
   defp deps do
     []
+  end
+
+  defp description do
+    """
+    Elixir Wrapper for Leaseweb infrastructure.
+    """
+  end
+
+  defp package do
+    [
+     name: :leaseweb,
+     files: ["lib", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     maintainers: ["Mahesh Reddy","Anwesh Reddy","John Ankanna"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/ahamtech/elixir-leaseweb"}]
   end
 end
