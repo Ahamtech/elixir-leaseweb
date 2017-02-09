@@ -31,7 +31,7 @@ defmodule LeaseWeb.Mixfile do
   defp package do
     [
      name: :leaseweb,
-     files: ["lib", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     files: ["lib", "mix.exs", "README*", "LICENSE*"],
      maintainers: ["Mahesh Reddy","Anwesh Reddy","John Ankanna"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/ahamtech/elixir-leaseweb"}]
