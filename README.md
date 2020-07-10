@@ -4,7 +4,7 @@ Elixir Wrapper for Leaseweb infrastructure.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+If [available in Hex](https://hex.pm/packages/leaseweb), the package can be installed
 by adding `leaseweb` to your list of dependencies in `mix.exs`:
 
 ```elixir
